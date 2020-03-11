@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site perso - CV</title>
+    <title>Mon site perso - Accueil</title>
     <link rel="stylesheet" href="CSS/main.css">
+    <script defer src="JS/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lobster+Two|Open+Sans:300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="main_nav">
-            <ul>
+    <header id="header">
+        <div id="icone_menu">
+            <img src="Images/menu.png" alt="icone de menu" id="image_menu">
+        </div>
+        <nav id="main_nav">
+            <ul id="li_header_haut">
                 <li>
                     <a href="index.html">Accueil</a>
                 </li>
@@ -20,21 +27,17 @@
                 <li>
                     <a href="portfolio.html">Portfolio</a>
                 </li>
+            </ul>
+            <ul id="li_header_bas">
+
                 <li>
                     <a href="resume.html">CV</a>
                 </li>
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
-            </ul>
-        </nav>
-        <nav class="social_nav">
-            <ul>
                 <li>
-                    <a href="https://www.facebook.com">FB</a>
-                </li>
-                <li>
-                    <a href="https://www.likedin.com">Li</a>
+                    <a href="mentionslegales.html">Mentions légales</a>
                 </li>
             </ul>
         </nav>
@@ -45,7 +48,7 @@
         section formation
         section compétence-->
     </main>
-    
+
     <footer>
         <div class="droits">
             Tous droits réservés Manchot Empereur Design
@@ -82,4 +85,5 @@
         </div>
     </footer>
 </body>
+
 </html>
