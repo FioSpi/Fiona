@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-image: url(../Images/snow.jpg);
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 80vw;
+}
+
+#main_nav {
+    display: none;
+    background-color: rgba(255, 211, 211, 0.521);
+    margin: 8px 0 0 8px;
+}
+
+#main_nav>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+
+#main_nav>#li_header_haut {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 18px;
+    width: 100%;
+}
+
+#main_nav>#li_header_bas {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0 15px;
+    width: 100%;
+}
+
+
+li {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li>a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color : black;
+}
+
+
+#li_header_bas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+footer {
+    height: 23vh;
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.droits{
+    font-size: 0.8em;
+    width: 100vw;
+    text-align: center;
+}
+
+.adresse_footer {
+    font-size: 0.8em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.lien_footer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_footer {
+    margin-top: 0;
+    padding: 0;
+    width: 24px;
+}
+
+#icone_menu>img {
+    width :45px;
+    margin: 4px;
+    position: fixed;
+    z-index: 2;
+}
+
+#header .show {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.show > ul {
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Page Contact*/
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Lobster Two', cursive;*/
+
+
+#main_contact {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenant_contact {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+} 
+
+.adresse {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.lien_main {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    align-items: center;
+
+}
+
+.lien_main>a {
+    height: 40px;
+}
+
+.logo_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 24px;
+}
+
+.logo_mail {
+    height: 28px;
+}
+
+.section_contact {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(194, 191, 191, 0.521);
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.civilite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
+}
+
+#fieldset {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 0.8em;
+}

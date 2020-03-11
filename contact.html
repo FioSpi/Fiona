@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon site perso - Accueil</title>
+        <link rel="stylesheet" href="CSS/main.css">
+        <script defer src="JS/main.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lobster+Two|Open+Sans:300&display=swap"
+            rel="stylesheet">
+    </head>
+    
+    <body>
+        <header id="header">
+            <div id="icone_menu">
+                <img src="Images/menu.png" alt="icone de menu" id="image_menu">
+            </div>
+            <nav id="main_nav">
+                <ul id="li_header_haut">
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="about.html">A propos</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+                <ul id="li_header_bas">
+                   
+                    <li>
+                        <a href="resume.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="mentionslegales.html">Mentions légales</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+    <main id="main_contact">
+        <div class="contenant_contact">
+            <div class="adresse">
+                <h2>Manchot Empereur design</h2>
+                2 boulevard Henri Becquerel
+                57970 Yutz
+                France
+            </div>
+            <div class="lien_main">
+                <div class="tel_contact">
+                    <a href="tel:+33677144432">
+                        <img class="logo_main" src="Images/phone.png" alt="logo téléphone"></a>
+                </div>
+                <div class="logo_mail">
+                    <a href="mailto:fiona.57@hotmail.fr">
+                        <img class="logo_mail" src="Images/email1.png" alt="logo email">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://facebook.com">
+                        <img class="logo_main" src="Images/facebook.png" alt="logo facebook">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://linkedin.com">
+                        <img class="logo_main" src="Images/linkedin.png" alt="logo LinkedIn">
+                    </a>
+                </div>
+            </div>
+
+            <section class=" section_contact">
+                <form class="formulaire" action="" method="POST">
+
+                    <div class="civilite">
+                        <label for="Civilite"> Civilité : </label>
+                        <select name="Civilite" id="Civilite">
+                            <option value="Madame"> Madame </option>
+                            <option value="Monsieur"> Monsieur </option>
+                            <option value="Nongenre"> Non-défini </option>
+                        </select>
+                    </div>
+
+                    <div class="fieldset">
+                        <label for="Nom_et_prénom"> Nom et prénom :</label>
+                        <input type="text" name="Nom_et_prénom" placeholder="-Votre nom et votre prénom-">
+                    </div>
+
+                    <div class="fieldset">
+                        <label for="ardesse_mail"> Adresse mail :</label>
+                        <input type="email" name="adresse_mail" placeholder="adresse_mail@******.***">
+                    </div>
+
+                    <div class="fieldset">
+                        <label for="telephone"> N° de téléphone :</label>
+                        <input type="tel" name="telephone" placeholder="+33* ** ** ** **">
+                    </div>
+
+                    <div class="fieldset">
+                        <label for="corps_du_message"> N° de téléphone :</label>
+                        <textarea name="corps_du_message" id="" cols="30" rows="10"
+                            placeholder="Votre message..."></textarea>
+                    </div>
+
+                    <div id="fieldset">
+                        <input class="case" type="checkbox" name="case_a_cocher" id="">
+                        <label for="case_a_cocher">En envoyant ce formulaire j'accepte que les données transmises
+                            soient
+                            traitées dans le cadre de ma demande.</label>
+                    </div>
+                    <div class="fieldset">
+                        <input type="submit" value="Envoyer">
+                    </div>
+
+                </form>
+            </section>
+    </main>
+
+    <footer>
+        <div class="droits">
+            Tous droits réservés Manchot Empereur Design
+        </div>
+        <div>
+            <a href="mentionslegales.html"></a>
+        </div>
+        <div class="adresse_footer">
+            <div>2 boulevard Henri Becquerel</div>
+            <div>57970 Yutz</div>
+            <div>France</div>
+        </div>
+        <div class="lien_footer">
+            <div class="tel_contact">
+                <a href="tel:+33677144432">
+                    <img class="logo_main" src="Images/phone.png" alt="logo téléphone"></a>
+            </div>
+            <div>
+                <a href="mailto:fiona.57@hotmail.fr">
+                    <img class="logo_main" src="Images/email.png" alt="logo email">
+                </a>
+            </div>
+            <div>
+                <a href="https://facebook.com">
+                    <img class="logo_footer" src="Images/facebook.png" alt="logo facebook">
+                </a>
+            </div>
+            <div>
+                <a href="https://linkedin.com">
+                    <img class="logo_footer" src="Images/linkedin.png" alt="logo LinkedIn">
+                </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
